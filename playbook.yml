@@ -1,8 +1,6 @@
 ---
 - name: Wordpress for DevOps lab
-  hosts: 127.0.0.1
-  connection: local
-  #hosts: tag_http-server
+  hosts: localhost
   become: yes
   tasks:
 
